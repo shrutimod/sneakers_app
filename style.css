@@ -2,6 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.navTitle {
+  font-weight: 1000;
+  font-size: 40px;
+  font-style: italic;
+}
+
 body {
   font-family: "Lato", sans-serif;
   padding: 0%;
@@ -387,8 +393,8 @@ label {
 }
 
 .closeBtn:hover {
-  color: red;
-  background-color: rgb(150, 119, 119);
+  color: white;
+  background-color: red;
 }
 
 /* Gallery css */
@@ -609,24 +615,8 @@ footer {
   /* Gallery */
 
   .gallery {
-    clip-path: none;
-    padding: 0;
-    display: flex;
+    display: none;
   }
-
-  .galleryItem {
-    flex: none;
-    padding: 2px;
-  }
-  .galleryTitle {
-    font-size: 29px;
-  }
-
-  .galleryImg {
-    width: 100px;
-    padding: none;
-  }
-
   /* New Season */
 
   .newSeason {
